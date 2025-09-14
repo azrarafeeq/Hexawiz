@@ -1,0 +1,35 @@
+/*
+ mdn docs named colour
+Color Hunt - for colour hunt
+csfieldguide rgb mixer */
+
+h1{
+    color: red;
+    /* background-color: #bc9494; */
+
+    /* fonts */
+
+    /* 
+    1px = 1/96 inch       
+    1pt = 1/72 inch
+    1 em = 100% parent size
+    1 rem = 100% root size*/
+    font-size: 45px; 
+
+    font-weight: lighter;
+
+    /* font.gooogle.com */
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+}
+
+h2{
+    color: #ff0000;
+    font-family: cursive;
+}
+
+h3{
+    color: rgb(247, 6, 6);
+
+}

@@ -1,0 +1,17 @@
+div{
+    height: 240px;
+    width: 240px;
+}
+
+#div1{
+    background-color: rgb(76, 76, 107);
+    padding: 20px;
+    border: 10px, solid, black;
+    margin-bottom: 10px;
+}
+
+#div2{
+    background-color: rgb(95, 180, 220);
+    padding: 20px;
+    border: 10px, dashed, black 
+}

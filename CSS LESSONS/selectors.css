@@ -1,0 +1,39 @@
+html{
+    background: yellowgreen;
+}
+
+/* Element selector */
+h1{
+    color: purple;
+}
+
+/* Class Selector */
+.maroon-heading{
+    color: maroon;
+}
+
+/* Id Selector */
+#blue{
+    color: blue;
+}
+
+/* Attribute Selector */
+p[draggable]{
+    color: red;
+}
+
+h4[draggable="true"]{
+    color: rgb(23, 100, 118);
+}
+
+/* Universal Selector */
+/* *{
+    color:rgb(97, 7, 181);
+} */
+
+
+
+/* Class vs Id Selector
+Class - can be applied to many elements in an html file
+Id -  should be applied to only one element in an html file */
+
