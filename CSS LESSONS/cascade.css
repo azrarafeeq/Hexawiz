@@ -1,0 +1,53 @@
+/* --- POSITION --- */
+h1{
+    /* red rule will be replaced by the blue */
+    color: red;
+    color: blue;
+}
+
+/* first h1 rule will be replaced by second h1 rule */
+
+/* h1{
+    color: green;
+} */
+
+
+
+
+
+/* --- SPECIFICITY --- (Most specific to least specific)*/
+
+/* 1. ID */
+#purple_id{
+    color: purple;
+}
+
+/* 2. Attribute */
+li[draggable]{
+    color: blue;
+}
+
+/* 3. Class */
+.orange_class{
+    color: orange;
+}
+
+/* 4. Element */
+
+li{
+    color: red;
+}
+
+
+/* --- TYPE --- */
+p{
+    color: darkgreen;
+}
+
+
+/* --- IMPORTANCE --- */
+
+h3{
+    color: blueviolet !important;
+    color: brown;
+}

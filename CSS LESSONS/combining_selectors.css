@@ -1,0 +1,47 @@
+
+p{
+    color: yellow;
+}
+
+/* Grouping Selectors */
+
+h1, h2{
+    color: orange;
+}
+
+/* Child Selector */
+.child_div > p{
+    color: blue;
+}
+
+
+/* Descendant Selector */
+
+.inner_div p{
+    background-color: aquamarine;
+    color: Black;
+}
+
+/* Chaining Selector */
+/* Chaining = Apply where all selectors are true
+for super specific stuff */
+
+#chain{
+    font-family: 'Courier New', Courier, monospace;
+}
+.chain_class{
+    font-size: 50px;
+}
+
+h1#chain.chain_class{
+    color: green;
+}
+
+/* Combinng Selector Combinations */
+/* selector selectorselector{
+        rule
+        }
+ */
+ /* selecting a paragraph element with class done that is a descendant of a ul:
+
+ul p.done { font-size: 0.5rem; } */
