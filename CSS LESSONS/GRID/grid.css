@@ -1,0 +1,38 @@
+/* FLEXBOX vs GRID
+
+Flexbox - for aligning elements one dimensional
+Grid - for aligning elements two dimensional
+
+https://appbrewery.github.io/grid-vs-flexbox/ */
+
+/* fr - fractional ratio (1:2) */
+/* .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    grid-template-rows: 1fr 1fr;
+    gap : 10px;
+} */
+
+/* p{
+    background-color: lightblue;
+} */
+
+.chess_board{
+    display: grid;
+    width: 400px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(8, 1fr); */
+}
+
+.white{
+    height: 50px;
+    width: 50px;
+    background-color: lightgreen
+}
+
+.black{
+    height: 50px;
+    width: 50px;
+    background-color: darkgreen;
+}

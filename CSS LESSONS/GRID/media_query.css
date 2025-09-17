@@ -1,0 +1,56 @@
+/* @media (max-width: 600px){
+    h1{
+        font-size: 15px;
+    }
+} */
+
+/* Screen sizes between 600 and 1000 */
+/* @media (min-width: 600px) and (max-width: 1000px) {
+    h1{
+        font-size: 25px;
+    }
+} */
+
+/* Any screen less that 600px and any screen greater than 1000px  */
+/* @media (max-width: 600px) and (min-width: 1000px) {
+    h1{
+        font-size: 25px;
+    }
+} */
+
+
+/* screen, print keyword not necessary by default */
+/* @media (orientation: landscape) {
+} */
+
+
+
+
+/* --------------------------------------------- */
+/* Mobile Phones */
+ @media (min-width: 319px) and (max-width: 480px){
+    body{
+        background-color: lightcoral;
+    }
+ }
+
+ /* Ipads and Tablets */
+  @media (min-width: 481px) and (max-width: 1200px){
+    body{
+        background-color: lightskyblue;
+    }
+ }
+
+ /* Laptops */
+  @media (min-width: 1201px) and (max-width: 1600px){
+    body{
+        background-color: lightgreen;
+    }
+ }
+
+ /*  */
+  @media (min-width: 1601){
+    body{
+        background-color: plum;
+    }
+ }

@@ -1,0 +1,63 @@
+._div{
+    border: 2px solid red;
+    background-color: aqua;
+}
+
+/* Methods to define grid rows and columns */
+
+/* fized size */
+
+.fixed_size{
+    display: grid;
+    grid-template-rows: 100px 200px;
+    grid-template-columns: 400px 800px;
+}
+
+/* toether */
+.together{
+    display: grid;
+    grid-template: 100px 200px / 400px 800px;
+}
+
+/* auto 
+auto in rows extends to the content width
+auto in column extends until end of screen
+is responsive friendly*/
+
+.auto{
+    display: grid;
+    grid-template-rows: 100px auto;
+    grid-template-columns: 400px auto;
+}
+
+/* Fractional sizing 
+responsive friendly*/
+
+.fractional{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* minmax 
+used for limiting size*/
+.minmax{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 200px minmax(200px,300px);
+}
+
+/* repeat */
+.repeat{
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(2, 200px);
+}
+
+/* grid auto rows and columns - for handling extra grids */
+.extra{
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(2, 200px);
+    grid-auto-rows: 300px;
+}

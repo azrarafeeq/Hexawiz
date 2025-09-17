@@ -1,0 +1,53 @@
+.container{
+    height: 100vh;
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 40px;
+    
+    
+}
+
+
+
+.container div{
+
+    /* combing flexbox and grid */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+   
+}
+
+/* SPAN */
+
+.item_cowboy{
+    background-color: aqua;
+    /* grid-column: span 2; */
+    /* grid-row: span 2; */
+    
+    
+    /* grid-column-start: 2; */
+    /* grid-column-end: 4; */
+    
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+
+    /* grid-area: row-star/column-start/row-end/column-end */
+    
+    /* order: 1; */
+}
+
+.item_astro{
+    background-color: blue;
+    /* grid-row: span 2; */
+}
+
+.item_book{
+    background-color: lightblue;
+    /* grid-column: span 2; */
+
+    /* ORDER */
+    /* order: 2; */
+}
