@@ -14,7 +14,7 @@ h1{
     1pt = 1/72 inch
     1 em = 100% parent size
     1 rem = 100% root size*/
-    font-size: 45px; 
+    font-size: 40px; 
 
     font-weight: lighter;
 
@@ -30,6 +30,6 @@ h2{
 }
 
 h3{
-    color: rgb(247, 6, 6);
+    color: rgb(230, 10, 10);
 
 }
